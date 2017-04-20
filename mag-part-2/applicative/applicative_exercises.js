@@ -13,6 +13,7 @@ var localStorage = {};
 
 //  ex1 :: Number -> Number -> Maybe Number
 var ex1 = function(x, y) {
+  return maybe.of(_.add).ap(maybe.of(x)).ap(maybe.of(y))
   // write me
 };
 
@@ -24,6 +25,8 @@ var ex1 = function(x, y) {
 //  ex2 :: Maybe Number -> Maybe Number -> Maybe Number
 var ex2 = undefined;
 
+var ex2 = liftA2(_.add)
+
 
 
 // Exercise 3
@@ -34,7 +37,7 @@ var render = _.curry(function(p, cs) { return "<div>"+p.title+"</div>"+makeComme
 
 //  ex3 :: Task Error HTML
 var ex3 = undefined;
-
+var ex3 = Task.of(render).ap(getPost(2)).ap(getComments(2))
 
 
 // Exercise 4
