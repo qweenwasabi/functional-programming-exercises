@@ -32,17 +32,17 @@ The article [The Two Pillars of JavaScript — Pt 2: Functional Programming]
 
 ## Specifications
 
-- [ ] Read the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] through Chapter 8: Tupperware
-- [ ] Exercises from the Mostly Adequate Guide are completed and included in the artifact repo
-  - [ ] [Chapter 4 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html#exercises) completed and all tests are passing
-  - [ ] [Chapter 5 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch5.html#exercises) completed and all tests are passing
-  - [ ] [Chapter 8 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#exercises) completed and all tests are passing
+- [X] Read the [Mostly Adequate Guide to Functional Programming][mostly-adequate-guide] through Chapter 8: Tupperware
+- [X] Exercises from the Mostly Adequate Guide are completed and included in the artifact repo
+  - [X] [Chapter 4 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch4.html#exercises) completed and all tests are passing
+  - [X] [Chapter 5 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch5.html#exercises) completed and all tests are passing
+  - [X] [Chapter 8 Exercises](https://drboolean.gitbooks.io/mostly-adequate-guide/content/ch8.html#exercises) completed and all tests are passing
 - [ ] [5 Functional Programming katas][codewars-chals] from CodeWars are completed and added to the `code-wars` folder of your artifact repo
-- [ ] Code uses a linter and there are no linting errors.
-- [ ] Code is well formatted with proper spacing and indentation.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] Code uses a linter and there are no linting errors.
+- [X] Code is well formatted with proper spacing and indentation.
+- [X] Variables, functions, files, etc. have appropriate and meaningful names.
+- [X] All major features are added via pull requests with a clear description and concise commit messages.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 A just a heads up on CodeWars: you're required to answer a couple of super basic JS questions to sign up for CodeWars, and you need to be signed up for the links to work.
 
