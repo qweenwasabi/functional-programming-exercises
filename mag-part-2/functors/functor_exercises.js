@@ -55,8 +55,8 @@ var getPost = function (i) {
     }, 300)
   });
 };
-
-var ex5 = undefined;
+var upperTitle = _.compose(toUpperCase, _.prop('title'))
+var ex5 = _.compose(_.map(upperTitle), getPost);
 
 
 
@@ -70,7 +70,7 @@ var checkActive = function(user) {
  return user.active ? Right.of(user) : Left.of('Your account is not active')
 };
 
-var ex6 = undefined;
+var ex6 = _.compose(_.map(showWelcome), checkActive);
 
 
 
@@ -79,7 +79,7 @@ var ex6 = undefined;
 // Write a validation function that checks for a length > 3. It should return Right(x) if it is greater than 3 and Left("You need > 3") otherwise
 
 var ex7 = function(x) {
-  return undefined; // <--- write me. (don't be pointfree)
+  return x.length > 3 ? Right.of(x) : Left.of("You need > 3")
 };
 
 
@@ -95,6 +95,6 @@ var save = function(x) {
   });
 };
 
-var ex8 = undefined;
+var ex8 = _.compose(either(IO.of, save), ex7)
 
 module.exports = {ex1: ex1, ex2: ex2, ex3: ex3, ex4: ex4, ex5: ex5, ex6: ex6, ex7: ex7, ex8: ex8};
